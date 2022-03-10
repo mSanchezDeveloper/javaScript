@@ -94,7 +94,7 @@
 // //   contador = contador - 1;
 // // }	while (contador > 20);
 
-// //for 
+// //for
 // // for (let i = 0; i < 20; i++) {
 // //   console.log("Soy el mejor programador (For)");
 // // }
@@ -106,11 +106,26 @@
 //   console.log(cadena[i]);
 //   if (cadena[i] === "a" || cadena[i] === "e" || cadena[i] === "i" || cadena[i] === "o" || cadena[i] === "u") {
 //     cantidadDeVocales++;
-//   } 
+//   }
 // }
 
 // console.log("Cantidad de vocales: " + cantidadDeVocales);
 
 //Array
-let nombres = ["Juan", "Pedro", "Maria", 0, true];
-console.log(nombres[1])
+let nombres = ["Juan", "Pedro", "Maria"];
+
+for (let i = 0; i < nombres.length; i++) {
+  console.log(nombres[i]);
+}
+//Push
+nombres.push("Luna");
+console.log(nombres);
+nombres[0] = "Casa";
+console.log(nombres)
+
+//splice
+nombres.splice(1, 3, "Sombra");
+console.log(nombres);
+
+nombres.splice(1);
+console.log(nombres)
