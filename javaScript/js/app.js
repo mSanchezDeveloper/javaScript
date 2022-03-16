@@ -1,8 +1,11 @@
-let nombre=prompt("Ingresa tu nombre");
-let lastName=prompt("Ingresa tu nombre");
-let saludo="Hola, mucho gusto soy";
-console.log(saludo + nombre);
-console.log(nombre.toUpperCase());
-console.log(nombre.toLowerCase());
-console.log(nombre.length);
-console.log(`${saludo} ${nombre} ${lastName}`);
+// const frutas = ['Banana', 'Manzana', 'Uva', 'Naranja'];
+
+// const arrayFrutas = frutas.map(function(fruta) {  
+//     return fruta.toUpperCase();
+// });
+
+// // const arrayFrutas = frutas.map(fruta => fruta.toUpperCase());
+// console.log(frutas);
+// console.log(arrayFrutas);
+
+//Funciones
