@@ -79,20 +79,20 @@
 // //Condicionales while
 // // let contador = 1;
 
-// // while (contador < 30) {
-// //   if (contador === 1) console.group("Numeros enteros menores a 30");
-// //   console.log(contador);
-// //   contador++;
-// // }
+while (contador < 30) {
+  if (contador === 1) console.group("Numeros enteros menores a 30");
+  console.log(contador);
+  contador++;
+}
 
 // // console.groupEnd();
 
-// //do
-// // let contador = 30;
-// // do {
-// //   console.log("Hola mundo (Do while)");
-// //   contador = contador - 1;
-// // }	while (contador > 20);
+//do
+// let contador = 30;
+// do {
+//   console.log("Hola mundo (Do while)");
+//   contador = contador - 1;
+// }	while (contador > 20);
 
 // //for
 // // for (let i = 0; i < 20; i++) {
