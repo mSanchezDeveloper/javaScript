@@ -79,11 +79,11 @@
 // //Condicionales while
 // // let contador = 1;
 
-while (contador < 30) {
-  if (contador === 1) console.group("Numeros enteros menores a 30");
-  console.log(contador);
-  contador++;
-}
+// while (contador < 30) {
+//   if (contador === 1) console.group("Numeros enteros menores a 30");
+//   console.log(contador);
+//   contador++;
+// }
 
 // // console.groupEnd();
 
