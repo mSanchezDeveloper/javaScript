@@ -154,3 +154,18 @@
 //     elementReverse += cadena[i];
 // }
 // console.log(`La frase ${cadena}, queda asi: ${elementReverse}`);
+
+//Primera vocal de una frase
+
+let cadena= prompt("Ingresa una palabra");
+let cantidadDeVocales=0;
+let vocal = [];
+
+for (let i = 0; i < cadena.length; i++) {
+  if (cadena[i] === "a" || cadena[i] === "e" || cadena[i] === "i" || cadena[i] === "o" || cadena[i] === "u") {
+    cantidadDeVocales++;
+    vocal.push(cadena[i]);
+  }
+}
+
+console.log(`La primera vocal de la frase: ${cadena} es: ${vocal[0]}`);
