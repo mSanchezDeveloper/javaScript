@@ -1,29 +1,13 @@
-//Setter y Getter
-// class Rectangle {
-//   constructor(height = 0, width = 0) {
-//     this.height = height;
-//     this.width = width;
-//   }
-//   set setHeight(x) {
-//     this.height = x;
-//   }
-//   set setWidth(y) {
-//     this.width = y;
-//   }
-//   get getArea() {
-//     return this.height * this.width;
-//   }
-// }
+//setInterval
+const blucle = setInterval(() => {
+  console.log("Comienza el bucle");
+}, 1000);
 
-// const rectangle = new Rectangle (10, 20);
-// console.log(rectangle);
-// console.log(rectangle.getArea);
+const stopBucle = () => {
+  clearInterval(blucle);
+  console.log("El bucle se ha detenido");
+};
 
-//DOM
-document.body.innerHTML = "Example";
-//crear elemento
-const exampleDOM = document.createElement("H1");
-//Inyectar contenido
-exampleDOM.innerHTML = "Hola mundo";
-//Añadirlo al DOM
-document.body.appendChild(exampleDOM);
+setTimeout(() => {
+  stopBucle();
+}, 5000);
